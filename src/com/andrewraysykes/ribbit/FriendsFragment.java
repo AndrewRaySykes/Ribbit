@@ -45,7 +45,7 @@ public class FriendsFragment extends ListFragment{
 		
 		ParseQuery<ParseUser> query = mFriendsRelation.getQuery();
 		query.addAscendingOrder(ParseConstants.KEY_USERNAME);
-		mFriendsRelation.getQuery().findInBackground(new FindCallback<ParseUser>() {
+		query.findInBackground(new FindCallback<ParseUser>() {
 
 			@Override
 			public void done(List<ParseUser> friends, ParseException e) {

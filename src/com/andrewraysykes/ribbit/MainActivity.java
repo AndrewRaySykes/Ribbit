@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+
 import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.FragmentTransaction;
@@ -24,6 +25,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.widget.Toast;
+
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
 
@@ -265,6 +267,21 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 				mediaScanIntent.setData(mMediaUri);
 				sendBroadcast(mediaScanIntent);
 			}
+			
+			Intent recipientsIntent = new Intent(this, RecipientsActivity.class);
+			recipientsIntent.setData(mMediaUri);
+			
+			String fileType;
+			if (requestCode == PICK_PHOTO_REQUEST || requestCode == TAKE_PHOTO_REQUEST) {
+				fileType = ParseConstants.TYPE_IMAGE;
+			}
+			else {
+				fileType = ParseConstants.TYPE_VIDEO;
+			}
+			
+			recipientsIntent.putExtra(ParseConstants.KEY_FILE_TYPE, fileType);
+			startActivity(recipientsIntent);
+			
 		}
 		else if (resultCode != RESULT_CANCELED) {
 			Toast.makeText(this, R.string.general_error, Toast.LENGTH_LONG).show();
