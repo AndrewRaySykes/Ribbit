@@ -21,7 +21,7 @@ public class ViewImageActivity extends Activity {
 		
 		Uri imageUri = getIntent().getData();
 		
-		Picasso.with(this).load(imageUri.toString()).into(imageView);
+		Picasso.with(this).load(imageUri).into(imageView);
 		
 		Timer timer = new Timer();
 		timer.schedule(new TimerTask() {
