@@ -1,4 +1,4 @@
-package com.andrewraysykes.ribbit;
+package com.andrewraysykes.ribbit.ui;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -26,6 +26,14 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.widget.Toast;
 
+import com.andrewraysykes.ribbit.R;
+import com.andrewraysykes.ribbit.R.array;
+import com.andrewraysykes.ribbit.R.id;
+import com.andrewraysykes.ribbit.R.layout;
+import com.andrewraysykes.ribbit.R.menu;
+import com.andrewraysykes.ribbit.R.string;
+import com.andrewraysykes.ribbit.adapters.SectionsPagerAdapter;
+import com.andrewraysykes.ribbit.utils.ParseConstants;
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
 

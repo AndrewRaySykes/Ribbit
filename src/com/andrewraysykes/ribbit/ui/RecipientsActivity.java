@@ -1,7 +1,8 @@
-package com.andrewraysykes.ribbit;
+package com.andrewraysykes.ribbit.ui;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.net.Uri;
@@ -15,6 +16,14 @@ import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.andrewraysykes.ribbit.R;
+import com.andrewraysykes.ribbit.R.id;
+import com.andrewraysykes.ribbit.R.layout;
+import com.andrewraysykes.ribbit.R.menu;
+import com.andrewraysykes.ribbit.R.string;
+import com.andrewraysykes.ribbit.utils.FileHelper;
+import com.andrewraysykes.ribbit.utils.ParseConstants;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;

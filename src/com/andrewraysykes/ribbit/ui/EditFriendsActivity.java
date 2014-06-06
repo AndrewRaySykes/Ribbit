@@ -1,4 +1,4 @@
-package com.andrewraysykes.ribbit;
+package com.andrewraysykes.ribbit.ui;
 
 import java.util.List;
 
@@ -11,6 +11,10 @@ import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.andrewraysykes.ribbit.R;
+import com.andrewraysykes.ribbit.R.layout;
+import com.andrewraysykes.ribbit.R.string;
+import com.andrewraysykes.ribbit.utils.ParseConstants;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;

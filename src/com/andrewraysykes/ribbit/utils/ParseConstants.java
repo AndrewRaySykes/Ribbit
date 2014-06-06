@@ -1,4 +1,4 @@
-package com.andrewraysykes.ribbit;
+package com.andrewraysykes.ribbit.utils;
 
 public final class ParseConstants {
 	

@@ -1,11 +1,15 @@
-package com.andrewraysykes.ribbit;
+package com.andrewraysykes.ribbit.adapters;
 
 import java.util.Locale;
 
 import android.content.Context;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.ListFragment;
+
+import com.andrewraysykes.ribbit.R;
+import com.andrewraysykes.ribbit.ui.FriendsFragment;
+import com.andrewraysykes.ribbit.ui.InboxFragment;
 
 /**
  * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
@@ -21,7 +25,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 	}
 
 	@Override
-	public ListFragment getItem(int position) {
+	public Fragment getItem(int position) {
 		
 		switch(position) {
 			case 0:

@@ -23,9 +23,10 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.Ribbit" >
         <activity
-            android:name="com.andrewraysykes.ribbit.MainActivity"
+            android:name="com.andrewraysykes.ribbit.ui.MainActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" android:theme="@style/Theme.Ribbit">
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Ribbit" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,38 +34,39 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.andrewraysykes.ribbit.LoginActivity"
+            android:name="com.andrewraysykes.ribbit.ui.LoginActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.andrewraysykes.ribbit.SignUpActivity"
+            android:name="com.andrewraysykes.ribbit.ui.SignUpActivity"
             android:label="@string/title_activity_sign_up"
-            android:parentActivityName="com.andrewraysykes.ribbit.LoginActivity"
+            android:parentActivityName="com.andrewraysykes.ribbit.ui.LoginActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.andrewraysykes.ribbit.EditFriendsActivity"
+            android:name="com.andrewraysykes.ribbit.ui.EditFriendsActivity"
             android:label="@string/title_activity_edit_friends"
-            android:parentActivityName="com.andrewraysykes.ribbit.MainActivity"
+            android:parentActivityName="com.andrewraysykes.ribbit.ui.MainActivity"
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.andrewraysykes.ribbit.MainActivity" />
         </activity>
         <activity
-            android:name="com.andrewraysykes.ribbit.RecipientsActivity"
+            android:name="com.andrewraysykes.ribbit.ui.RecipientsActivity"
             android:label="@string/title_activity_recipients"
-            android:parentActivityName="com.andrewraysykes.ribbit.MainActivity"
+            android:parentActivityName="com.andrewraysykes.ribbit.ui.MainActivity"
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.andrewraysykes.ribbit.MainActivity" />
         </activity>
         <activity
-            android:name="com.andrewraysykes.ribbit.ViewImageActivity"
+            android:name="com.andrewraysykes.ribbit.ui.ViewImageActivity"
             android:label="@string/title_activity_view_image"
-            android:parentActivityName="com.andrewraysykes.ribbit.MainActivity" android:screenOrientation="portrait">
+            android:parentActivityName="com.andrewraysykes.ribbit.ui.MainActivity"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.andrewraysykes.ribbit.MainActivity" />
