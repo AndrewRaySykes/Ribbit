@@ -12,9 +12,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.andrewraysykes.ribbit.R;
-import com.andrewraysykes.ribbit.R.id;
-import com.andrewraysykes.ribbit.R.layout;
-import com.andrewraysykes.ribbit.R.string;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;

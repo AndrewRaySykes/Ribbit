@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.andrewraysykes.ribbit.MainActivity$PlaceholderFragment" >
+    tools:context="com.andrewraysykes.ribbit.MainActivity" >
 
     <GridView
         android:id="@+id/friendsGrid"
@@ -12,8 +12,12 @@
         android:layout_alignParentTop="true"
         android:clipToPadding="false"
         android:horizontalSpacing="@dimen/user_grid_spacing"
-        android:numColumns="3"
-        android:verticalSpacing="@dimen/user_grid_spacing" >
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/user_grid_spacing"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" >
     </GridView>
 
     <TextView

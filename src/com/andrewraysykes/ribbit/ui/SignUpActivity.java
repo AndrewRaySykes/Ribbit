@@ -11,9 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.andrewraysykes.ribbit.R;
-import com.andrewraysykes.ribbit.R.id;
-import com.andrewraysykes.ribbit.R.layout;
-import com.andrewraysykes.ribbit.R.string;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
