@@ -105,7 +105,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 						File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),appName);
 						
 						Log.i(TAG, mediaStorageDir.toString());
-						
+												
 						// 2. Create our sub-directory
 						if (! mediaStorageDir.exists()) {
 							if (! mediaStorageDir.mkdirs()) {

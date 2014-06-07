@@ -16,16 +16,17 @@ public final class R {
     public static final class color {
         public static final int apptheme_color=0x7f040002;
         public static final int background_purple=0x7f040000;
-        public static final int focused_purple_button=0x7f040005;
+        public static final int focused_purple_button=0x7f040006;
         public static final int light_gray=0x7f040001;
-        public static final int light_purple_background=0x7f040006;
-        public static final int light_purple_button=0x7f040003;
-        public static final int pressed_purple_button=0x7f040004;
-        public static final int swipeRefresh1=0x7f040007;
-        public static final int swipeRefresh2=0x7f040008;
-        public static final int swipeRefresh3=0x7f040009;
-        public static final int swipeRefresh4=0x7f04000a;
-        public static final int text_color=0x7f04000b;
+        public static final int light_purple_background=0x7f040007;
+        public static final int light_purple_button=0x7f040004;
+        public static final int pressed_purple_button=0x7f040005;
+        public static final int purple_pressed_item=0x7f040003;
+        public static final int swipeRefresh1=0x7f040008;
+        public static final int swipeRefresh2=0x7f040009;
+        public static final int swipeRefresh3=0x7f04000a;
+        public static final int swipeRefresh4=0x7f04000b;
+        public static final int text_color=0x7f04000c;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -37,14 +38,15 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
-        public static final int inbox_horizontal_margin=0x7f050006;
-        public static final int inbox_vertical_margin=0x7f050007;
+        public static final int inbox_horizontal_margin=0x7f050007;
+        public static final int inbox_horizontal_padding=0x7f050006;
+        public static final int inbox_vertical_margin=0x7f050008;
         public static final int login_horizontal_padding=0x7f050004;
         public static final int login_vertical_margin=0x7f050003;
         public static final int login_vertical_padding=0x7f050005;
         public static final int message_list_item_vertical_margin=0x7f050002;
-        public static final int message_vertical_padding=0x7f050008;
-        public static final int user_grid_spacing=0x7f050009;
+        public static final int message_vertical_padding=0x7f050009;
+        public static final int user_grid_spacing=0x7f05000a;
     }
     public static final class drawable {
         public static final int ab_background_textured_ribbit=0x7f020000;

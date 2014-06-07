@@ -18,7 +18,12 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:clipToPadding="false"
+            android:focusableInTouchMode="true"
+            android:paddingLeft="@dimen/inbox_horizontal_padding"
+            android:paddingRight="@dimen/inbox_horizontal_padding"
+            android:paddingTop="@dimen/inbox_vertical_margin"
             android:paddingBottom="@dimen/inbox_vertical_margin" >
+
         </ListView>
     </android.support.v4.widget.SwipeRefreshLayout>
 

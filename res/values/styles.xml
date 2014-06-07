@@ -20,6 +20,7 @@
     <style name="Theme.Ribbit.LightPurpleBackground">
         <item name="android:background">@color/light_purple_background</item>
         <item name="android:divider">@null</item>
+        <item name="android:listSelector">@color/purple_pressed_item</item>
     </style>
     
     <style name="Theme.Ribbit.LightPurpleBackground.GridView">
